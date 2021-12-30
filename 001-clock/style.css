@@ -1,0 +1,44 @@
+body {
+	background-color: #99a799;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	font: 14px/26px 'Press Start 2P', Helvetica, Arial, sans-serif;
+	color: #c0c0c0;
+	margin: 0px;
+	padding: 0px;
+	text-transform: uppercase;
+}
+
+header {
+	font-size: 1rem;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+}
+
+footer p {
+	text-transform: uppercase;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 12px;
+}
+
+#clock {
+	font-size: 21px;
+	font-family: 'Press Start 2P', cursive;
+	font-size: 36px;
+	display: block;
+	padding: 5px 0px;
+	color: #e2c2b9;
+}
+
+.container {
+	padding: 2em 2em;
+}
+
+.clock-section {
+	position: relative;
+}
